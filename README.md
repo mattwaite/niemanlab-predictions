@@ -6,9 +6,11 @@ This is a cheeky little experiment in making predictions for the future using a 
 
 ###Instructions###
 
-Making your own predictions is pretty easy. In the repository is the corpus and a pre-parsed Sqlite database of the corpus to get you from zero to predictions in no time. 
+Making your own predictions is pretty easy. In the repository is the corpus and a pre-parsed Sqlite database of the corpus to get you from zero to predictions in no time.
 
-If you want to use the pre-made database to generate your predictions, simply clone the repository, navigate into the directory where the code is and run this:
+If you're on a Mac or Linux machine, you're good to go. If you're on Windows, you'll need to make sure you have Python installed (it does not come standard).  
+
+If you have Python, and you want to use the pre-made database to generate your predictions, simply clone the repository, open up a terminal, navigate into the directory where the code is and run this:
 
 ```python markov.py gen predictions 10```
 
